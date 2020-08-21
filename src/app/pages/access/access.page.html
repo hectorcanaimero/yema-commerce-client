@@ -1,0 +1,28 @@
+<ion-content>
+  <div class="container">
+    <ion-grid fixed>
+      <ion-row class="ion-justify-content-center">
+        <ion-col size="5" size-md="6">
+          <div class='logo'>
+            <img src="./assets/images/logo-500.png" alt="">
+          </div>
+        </ion-col>
+      </ion-row>
+      <ion-row class="ion-justify-content-center ion-margin-top">
+        <ion-col size="10">
+          <ion-button (click)="goToSignUp()" expand="full" fill="outline" color="light" mode="ios">
+            Sign Up
+          </ion-button>
+        </ion-col>
+      </ion-row>
+      <ion-row class="ion-justify-content-center">
+        <ion-col size="10">
+          <ion-button (click)="goToSignIn()" expand="full" color="danger" mode="ios">
+            Sign In
+          </ion-button>
+        </ion-col>
+      </ion-row>
+
+    </ion-grid>
+  </div>
+</ion-content>
